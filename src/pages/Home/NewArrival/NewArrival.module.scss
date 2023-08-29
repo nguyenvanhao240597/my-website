@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.symbol {
+    width: 6px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8a33fd;
+}
+.text-NewArrival {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.frame139 {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}

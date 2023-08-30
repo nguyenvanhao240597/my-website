@@ -1,7 +1,6 @@
-.container {
+.container-deals {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
     h6 {
         color: #fff;
         font-family: Montserrat;
@@ -43,7 +42,7 @@
     }
 }
 .deals-left {
-    width: 604.934px;
+    width: 49%;
     height: 355.844px;
     flex-shrink: 0;
     border-radius: 12px;
@@ -51,7 +50,7 @@
         lightgray -106.346px -9.514px / 187.226% 212.215% no-repeat;
 }
 .deals-right {
-    width: 604.934px;
+    width: 49%;
     height: 355.844px;
     flex-shrink: 0;
     border-radius: 12px;

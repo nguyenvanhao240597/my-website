@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 
 function Deals() {
     return (
-        <div className={cx('container')}>
+        <div className={cx('container-deals')}>
             <div className={cx('deals-left')}>
                 <div className={cx('text-deals')}>
                     <h6>Low Price</h6>

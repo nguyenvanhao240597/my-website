@@ -1,9 +1,9 @@
-.container {
+.container-NewArrival {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 50px;
 }
-
 .symbol {
     width: 6px;
     height: 30px;
@@ -15,15 +15,52 @@
     width: fit-content;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
     justify-content: flex-start;
     align-items: flex-start;
+    p {
+        font-family: Core Sans C;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        white-space: nowrap;
+    }
+}
+.control {
+    width: 13.586px;
+    height: 12px;
+    flex-shrink: 0;
+    stroke-width: 1.6px;
+    stroke: #3c4242;
 }
 .frame139 {
-    width: 1200px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .image {
+        width: 100%;
+        height: 262.815px;
+        flex-shrink: 0;
+        border-radius: 12px;
+    }
+}
+
+.box-NewArrival {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    p {
+        font-family: Causten;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
 }

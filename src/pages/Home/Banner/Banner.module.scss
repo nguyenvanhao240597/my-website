@@ -1,22 +1,15 @@
-.container {
+.container-img {
     display: flex;
+    height: 716px;
     justify-content: space-between;
     align-items: center;
-    width: 1440px;
-    height: 716px;
-    background: url('../../../images/shop-hero-1-product-slide-1.jpg');
-    gap: 40px;
-
-    img {
-        margin: 0;
-        width: 24px;
-        height: 44.471px;
-    }
+    width: 100%;
+    background: url('../../../images/shop-hero-1-product-slide-1.jpg') no-repeat;
+    margin-bottom: 100px;
 }
 .banner-text {
-    width: 439px;
-    height: 455px;
-    margin: 0 500px 200px 0;
+    width: 40%;
+    height: fit-content;
     h5 {
         color: #fff;
         font-family: Core Sans C;
@@ -26,6 +19,7 @@
         line-height: 37.771px; /* 118.035% */
         letter-spacing: 0.157px;
         text-transform: capitalize;
+        white-space: nowrap;
     }
 
     h1 {
@@ -48,9 +42,11 @@
         font-weight: 500;
         line-height: 47.214px; /* 147.544% */
         letter-spacing: 0.315px;
+        white-space: nowrap;
     }
 
     button {
+        width: 60%;
         margin-top: 40px;
         padding: 16px 72px 16px 72px;
         color: #3c4242;
@@ -64,9 +60,15 @@
         cursor: pointer;
     }
 }
+
 .cont {
+    margin-left: 30px;
     width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+img {
+    width: 24px;
+    height: 44.471px;
 }

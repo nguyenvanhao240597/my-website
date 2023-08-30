@@ -26,15 +26,15 @@ function NewArrival() {
                     </div>
                     <div className={cx('box-NewArrival')}>
                         <img src={images2} alt={images2} className={cx('image')} />
-                        <p className={cx('text')}>Knitted Joggers</p>
+                        <p className={cx('text')}>Full Sleeve</p>
                     </div>
                     <div className={cx('box-NewArrival')}>
                         <img src={images3} alt={images3} className={cx('image')} />
-                        <p className={cx('text')}>Knitted Joggers</p>
+                        <p className={cx('text')}>Active T-Shirts</p>
                     </div>
                     <div className={cx('box-NewArrival')}>
                         <img src={images4} alt={images4} className={cx('image')} />
-                        <p className={cx('text')}>Knitted Joggers</p>
+                        <p className={cx('text')}>Urban Shirts</p>
                     </div>
                     <img src={images.nextNewArrival} alt={images.nextNewArrival} className={cx('control')} />
                 </div>

@@ -286,8 +286,7 @@
 .box-BigSavingZone4 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 20px;
+    justify-content: flex-end;
 
     .image4 {
         display: flex;
@@ -301,28 +300,28 @@
 .fromat-text4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 10px;
     position: absolute;
-    width: 11%;
+    width: 9%;
     height: fit-content;
-    margin: 60px 0 0 20px;
+    margin: 50px 80px 0 0;
     img {
-        margin-left: 45px;
+        margin: 10px 0 10px 50px;
     }
     h2 {
         color: var(--color-black);
         font-family: Core Sans C;
-        font-size: 28px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 600;
-        line-height: 38.431px; /* 137.255% */
-        letter-spacing: 0.56px;
+        line-height: 43.922px; /* 137.255% */
+        letter-spacing: 0.64px;
     }
     p {
         color: var(--color-black);
         font-family: Causten;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -336,7 +335,7 @@
         line-height: normal;
     }
     button {
-        width: var(--size-button);
+        width: 80%;
         padding: var(--padding-button);
         color: var(--color-black);
         text-align: center;
@@ -354,7 +353,7 @@
 .box-BigSavingZone5 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     gap: 20px;
 
     .image5 {
@@ -369,28 +368,28 @@
 .fromat-text5 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    justify-content: flex-end;
+    gap: 10px;
     position: absolute;
-    width: 11%;
+    width: 9%;
     height: fit-content;
-    margin: 60px 0 0 20px;
+    margin: 40px 80px 0 0;
     img {
         margin-left: 45px;
     }
     h2 {
         color: var(--color-black);
         font-family: Core Sans C;
-        font-size: 28px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 600;
-        line-height: 38.431px; /* 137.255% */
-        letter-spacing: 0.56px;
+        line-height: 43.922px; /* 137.255% */
+        letter-spacing: 0.64px;
     }
     p {
         color: var(--color-black);
         font-family: Causten;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -398,13 +397,13 @@
     h3 {
         color: var(--color-black);
         font-family: Causten;
-        font-size: 18px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     button {
-        width: var(--size-button);
+        width: 80%;
         padding: var(--padding-button);
         color: var(--color-black);
         text-align: center;

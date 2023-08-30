@@ -57,9 +57,9 @@ function BigSavingZone() {
                     <div className={cx('box-BigSavingZone4')}>
                         <img src={images4} alt={images4} className={cx('image4')} />
                         <div className={cx('fromat-text4')}>
-                            <h2>Hawaiian Shirts</h2>
-                            <p>Dress up in summer vibe</p>
-                            <h3>UPTO 50% OFF</h3>
+                            <h2>Urban Shirts</h2>
+                            <p>Live In Confort</p>
+                            <h3>FLAT 60% OFF</h3>
                             <img src={images.downBlack} alt={images.downBlack} />
                             <button>SHOP NOW</button>
                         </div>
@@ -67,9 +67,9 @@ function BigSavingZone() {
                     <div className={cx('box-BigSavingZone5')}>
                         <img src={images5} alt={images5} className={cx('image5')} />
                         <div className={cx('fromat-text5')}>
-                            <h2>Hawaiian Shirts</h2>
-                            <p>Dress up in summer vibe</p>
-                            <h3>UPTO 50% OFF</h3>
+                            <h2>Oversized T-Shirts</h2>
+                            <p>Street Style Icon</p>
+                            <h3>FLAT 60% OFF</h3>
                             <img src={images.downBlack} alt={images.downBlack} />
                             <button>SHOP NOW</button>
                         </div>

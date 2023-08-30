@@ -2,6 +2,12 @@ import Banner from './Banner';
 import Deals from './Deals';
 import NewArrival from './NewArrival';
 import BigSavingZone from './BigSavingZone';
+import FashionBetter from './FashionBetter';
+import CategoriesForMen from './CategoriesForMen';
+import CategoriesForWomen from './CategoriesForWomen';
+import TopBrandsDeal from './TopBrandsDeal';
+import InTheLimelight from './InTheLimelight';
+import Feedback from './Feedback';
 // import Test from './Test';
 
 import classNames from 'classnames/bind';
@@ -17,6 +23,12 @@ function Home() {
                     <Deals />
                     <NewArrival />
                     <BigSavingZone />
+                    <FashionBetter />
+                    <CategoriesForMen />
+                    <CategoriesForWomen />
+                    <TopBrandsDeal />
+                    <InTheLimelight />
+                    <Feedback />
                     <h2>Home page</h2>
                 </div>
             </div>
